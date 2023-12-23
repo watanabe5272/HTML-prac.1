@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<!-- この言語指定はSEO目的において意味がない -->
+<!-- GOOGLEはlang属性を見ていないようだ -->
+<!-- 書いてて無駄なことはない -->
+<!-- 自動翻訳の際に良いらしい -->
+<html lang="ja">
+
+<!-- "head" にはこのHTMLmp情報を書いておく-->
+<!-- この部分は表示されない -->
+
+<head>
+    <!-- "title" は検索エンジンであったりタブ部分であったりに表示される -->
+    <title>Letter</title>
+
+    <!-- 文字のエンコード -->
+    <meta charset="UTF-8" />
+
+    <!-- スマホ表示にも対応させたいときにこれを書く -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!-- ページ内容の概要をここに示しておく -->
+    <meta name="description" content="noise background" />
+
+    <!-- 検索エンジンにインデックスしないように命令 -->
+    <meta name="robots" content="noindex,nofollow" />
+
+    <!-- CSS の読み込み -->
+    <link rel="stylesheet" href="cursor.css">
+    <link rel="stylesheet" href="noise.css">
+
+    <!-- フォントの指定 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@400&display=swap" rel="stylesheet">
+
+    <!-- GSAP のCDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Reveal のCDN -->
+    <script src="https://unpkg.com/scrollreveal">
+    </script>
+
+</head>
+
+<body>
+
+    <div class="cursor"></div>
+    <div class="sub-cursor"></div>
+    <div class="noise position-fixed" data-v-41e41ab1></div>
+    <div class="slider"></div>
+    <div class="section">
+        <div class="letter">
+            <div class="dear">〇〇〇へ（※手紙のサンプル）</div>
+            <div class="textbox">
+                <div class="text">
+                    〇〇〇〇〇〇〇〇〇〇〇〇，<br>
+                    〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇。<br>
+                    〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇。<br>
+                    〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇。
+                </div>
+            </div>
+            <div class="textbox">
+                <div class="text">
+                    〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇，<br>
+                    〇〇〇〇〇〇〇〇〇〇，〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇。
+                </div>
+            </div>
+            <div class="textbox">
+                <div class="text">
+                    〇〇〇〇〇，〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇。
+                </div>
+            </div>
+            <div class="textbox">
+                <div class="text">
+                    〇〇〇，〇〇〇，〇〇〇，〇〇〇〇〇，<br>
+                    〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇。
+                </div>
+            </div>
+            <div class="textbox">
+                <div class="text">
+                    〇〇〇〇，〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇。<br>
+                    〇〇〇〇〇〇〇，〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇。<br>
+                    〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇。
+                </div>
+            </div>
+            <div class="textbox">
+                <div class="text">
+                    〇〇〇〇〇〇，〇〇〇〇〇〇〇〇〇〇〇〇〇。<br>
+                    〇〇〇〇，〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇。<br>
+                    〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇。
+                </div>
+            </div>
+            <div class="textbox">
+                <div class="text">
+                    〇〇〇〇〇〇〇〇〇〇〇〇〇，〇〇〇〇〇〇〇〇〇〇〇〇！<br>
+                    〇〇〇〇，〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇。<br>
+                    〇〇〇〇〇〇〇〇〇〇〇〇〇〇，<br>
+                    〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇。
+                </div>
+            </div>
+            <div class="textbox">
+                <div class="text">
+                    本当にいつもありがとう。<br>
+                    大好きだよ。<br>
+                    〇〇，〇〇〇〇〇〇！
+                </div>
+            </div>
+            <div class="from">
+                〇〇〇より
+            </div>
+            <img class="LastImg" src="./image/MG_1261-2-1365x2048.jpg" alt="No Image">
+            <div class="LastImgBlur">
+                ※写真のサンプル
+            </div>
+        </div>
+    </div>
+    <script src="cursor.js"></script>
+    <img class="blob_b1 shapes" src="image/blob_b1.svg">
+    <img class="blob_r2 shapes" src="image/blob_r2.svg">
+    <img class="blob_w2 shapes" src="image/blob_w2.svg">
+    <img class="blob_b2 shapes" src="image/blob_b2.svg">
+    <img class="blob_w2-2 shapes" src="image/blob_w2.svg">
+    <img class="blob_n1 shapes" src="image/blob_n1.svg">
+    <img class="blob_p2 shapes" src="image/blob_p2.svg">
+    <img class="blob_n2 shapes" src="image/blob_n2.svg">
+    <img class="blob_r3 shapes" src="image/blob_r3.svg">
+    <img class="blob_p1 shapes" src="image/blob_p1.svg">
+    <img class="blob_w2 shapes" src="image/blob_w2.svg">
+    <img class="blob_b3 shapes" src="image/blob_b3.svg">
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ページ内容の概要をここに示しておく -->
+    <meta name="description" content="introduction" />
+    <!-- 検索エンジンにインデックスしないように命令 -->
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Happy Birthday!!</title>
+    <!-- フォントの指定 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@400&display=swap" rel="stylesheet">
+    <!-- cursor css の読み込み -->
+    <link rel="stylesheet" href="files/css/cursor.css">
+    <!-- grape css の読み込み -->
+    <link rel="stylesheet" href="files/css/SmallGrape.css">
+    <!-- css の読み込み -->
+    <link rel="stylesheet" href="files/css/intro.css">
+    <!-- jQuery の読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- GSAP の読み込み -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- ScrolReveal.js の読み込み -->
+    <script src="https://unpkg.com/scrollreveal">
+    </script>
+
+</head>
+
+<body>
+    <div class='fundamental'>
+        <!-- オーディオのボタンと音源 -->
+        <!-- <script src="audio.js"></script> -->
+        <div class="audio_wrap">
+            <!-- <div class="audio_button bthover">music</div> -->
+            <div class="audio_button grape">
+                <div class="gp00 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="gp11 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="gp12 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="gp21 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="gp22 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="gp23 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="gp31 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="gp32 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="leaf"></div>
+            </div>
+            <audio id="audio" src="files/audio/SecretKiss.mp3" loop>
+                No Audio
+            </audio>
+        </div>
+        <!-- ******************** -->
+        <div class="cursor"></div>
+        <div class="sub-cursor"></div>
+        <div id="circle1"></div>
+        <div id="circle2"></div>
+        <div id="circle3"></div>
+        <div id="circle4"></div>
+        <div id="circle5"></div>
+        <div id="circle6"></div>
+        <div id="circle7"></div>
+        <div id="circle8"></div>
+        <div id="circle9"></div>
+        <div id="circle10"></div>
+        <div class="slider"></div>
+        <div class="message">
+            <h1 class="messagefront">お誕生日おめでとう</h1>
+            <h1 class="m1 messagemid">
+                ※以下サンプルメッセージ<br>
+                夜ごはんはおいしく食べれたかな？
+            </h1>
+            <h1 class="m2 messagemid">
+                あらためて23歳のお誕生日おめでとう！
+            </h1>
+            <h1 class="m3 messagemid">
+                〇〇〇の誕生日をお祝いできて<br>
+                とってもうれしいです
+            </h1>
+            <h1 class="m4 messagemid">
+                特別な日にしたくてたくさん考えました
+            </h1>
+            <h1 class="m5 messagemid">
+                〇〇〇〇〇〇〇〇，<br>
+                〇〇〇〇〇〇〇〇〇〇〇〇〇〇！
+            </h1>
+            <h1 class="m6 messagemid">
+                連休最後に時間をくれてありがとう<br>
+                喜んでくれたら嬉しいです
+            </h1>
+            <h1 class="m7 messagemid">
+                ということでね，<br>
+                〇〇〇からプレゼントを受け取ってね！
+            </h1>
+            <h1 class="m8 messageback">
+                いいよって言われたら，<br>
+                下のぶどうボタンを押してね</h1>
+        </div>
+        <div class="grapeFrame">
+            <div class="link">
+                <div class="gp00 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="gp11 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="gp12 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="gp21 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="gp22 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="gp23 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="gp31 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="gp32 gpBackground">
+                    <div class="gpItself"></div>
+                </div>
+                <div class="leaf"></div>
+            </div>
+        </div>
+        <!-- ******************** -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script> -->
+        <!-- <script src="scroll.js"></script> -->
+        <script src="files/js/audio.js"></script>
+        <script src="files/js/cursor.js"></script>
+        <script src="files/js/scroll.js"></script>
+        <script src="files/js/SmallGrape.js"></script>
+
+
+</body>
+
+</html>
